@@ -1,2 +1,2 @@
-# docker-python-http-dump-example
-A sample docker application written in python that simply dumps the HTTP request header.
+# genai-poems
+A sample Cloud Run hosted application displaying how to use Google Cloud Gen AI with Python + Flask
