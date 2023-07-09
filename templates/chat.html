@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12">
+        <div id="chat-box" class="bg-light p-3 mb-3 rounded">
+            {% include 'messages.html' %}
+        </div>
+        <div class="input-group">
+            <input id="chat-input" type="text" class="form-control" placeholder="Type your message...">
+            <div class="input-group-append">
+                <button id="send-button" class="btn btn-primary">Send</button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block script %}
+<script>
+$(function() {
+    $('#send-button').click(function() {
+        var input = $('#chat-input').val().trim();
+        if (input != '') {
+            $('#chat-box').append('<div class="p-2 mt-2 rounded bg-primary text-white">User: ' + input + '</div>');
+            $('#chat-input').val('');
+            // Use AJAX to send the input to the server and get a response
+            $.ajax({
+                url: '/chat/' + encodeURIComponent(input),
+                type: 'GET',
+                success: function(data) {
+                    $('#chat-box').append('<div class="p-2 mt-2 rounded bg-secondary text-white">Bot: ' + data.response + '</div>');
+                },
+                error: function() {
+                    $('#chat-box').append('<div class="p-2 mt-2 rounded bg-secondary text-white">Bot: Sorry, I am not able to respond at the moment.</div>');
+                }
+            });
+        }
+    });
+});
+</script>
+{% endblock %}

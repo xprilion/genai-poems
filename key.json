@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "gcp-adventure-x",
+  "private_key_id": "8b5c35aa5ffcf6d0a529fddf7636c3802f461c7d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDRaw0HeXy/2rNg\nh8uqe4dvYsAWyUWX6MDOoZ37rBjpea6y3Ice2fqs98zIg0Kc7Mxv4nIU6Bt8qh2J\nXo5+H4DGxOC0iwFuU0zPw16GWtH3YWjLVQnp2+Dywkzeb5ZlT58MunyU4ddXGHhg\nz4JSVvvObD7+yxNS2YE6pZNgADMWksiYBLQbjuaTwZJ/CyXRg+HcG1yH4t8dmQnh\nVuxRHKksuWy2gZPRuXLrWBCZeX4wJ/UY4PbJAERQOc1ObcF0p7FqKuEKzmy2on0I\n0xXiwhiAdiv0E7eEmDoXzwuQsVuTDO8wsqQHkH3HS2Cga5NY6WpHoFgoVsubrrVQ\n2ho9IqMVAgMBAAECggEAAr1Sb6VDNdn35sIKrrGW//oGu/A+HNKf/b6s1mdV8W1K\nFRpAGkM3vZ4wQPSWoSmSiGl/RzlnbVC8ZNj70Y06ngm39s9VYXVtgnpHzkd537FC\nhwZsbsbAQUIRcgd7rC+dIQl/f7hvR2W74r2piBzjMRFxcYaD5jLk4eOF81zio4pE\nn78vomM9kMNY2p7K4jWV98Zl/tdTwE1YMT570Ve1KvIhagO6NUZpwbxF7ARZHPSX\n9vdjstdpgB/y1EW0OBnGVr9hf77pZqA23zZNLiJkB62udngpL203YKVgoucz7VDY\nye4AsU7NQyKGJkx+HIeL7Vk13QTL+bfzOkUSZ4HTgQKBgQD5WS37ktsL12AkXU6I\nV01nNrgmgCeZsUQmCdi02ZtgmbXHZUOucXSbDG80OgIezd2jceoXym9AEGPwFS4C\npaQLGyTCjShw3VTzUDidFnGToXFOj1bk2+sIQZkSPTO3o1Hz4aPeuvlGb9/EI5ov\nurcySNfv1ZlNxbAYtO76nWhHTQKBgQDXAS9Kk8nECopabxSNQL3KqahbFateN9lS\nJewuwn7w/SCaIFQgACIYuOEAHkpxtP2aPnKw8OW3jD4W4xfJBPaUPJgpGmPzB2b4\nLOf9pQcDp/awW/3SYkk42F/LDw9O+qWmeTj8cpB6DDylZiGwjPq95igx6Nas3GMO\nm9Q6hi226QKBgGpgIFzeNvLjTFHXOKSz0gLBdmh+beaEmJU9yCTHXSEmEkXhrrEi\nF+P5twtp3/OyUebjt0G1DCchlvEaqAlbDxPp3ZHeVK1pz08KH0ztAUFBM6yXPDPg\nmnFoQtxkHccvNsw7rARecfAZ1DXCFopcNsGOEAlyb7edKdYwgm+Kba1VAoGAJiuk\nrLXOJUrFw0ZjPKyYxUkXhYw0T1bU8zueUbLf/ILD7fj9Vm0PoJn6AB5gkw1R1Ldv\nfzBVaB+yyjdo+pwx9qFHVkzEH9pZkofOa/6HX0PLjQXX6yjd3QS1BQTYb+oZzJNK\n5a6lLbXMcoTOSFzPCzW4PxwaOLgrseVCaV128jkCgYEAprT0v/3zA7usXaxsOEH0\nPONBZfd6t3lla16UHwpM1tSdJONHG3bx/oT+U1GpzeaXgyYvvDzTHC39aEJjcduX\nWlaj8uVQXwPLBqX4u42uHuwqVO2kCIkX58Gxn9gGEjwle05FkQFaSPAvysv6Zqwv\n+rsTXaO5yjsJoQl/B/AyA9k=\n-----END PRIVATE KEY-----\n",
+  "client_email": "genai-demo@gcp-adventure-x.iam.gserviceaccount.com",
+  "client_id": "117656536478129258609",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/genai-demo%40gcp-adventure-x.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
